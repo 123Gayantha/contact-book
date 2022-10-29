@@ -1,0 +1,52 @@
+/* common design */
+header{
+    width: 100%;
+    height : 80px;
+    margin-bottom: 20px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+body{
+    background: #232323;
+    padding-top: 80px;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: #fff;
+}
+#pgname{
+    font-size: .7em;
+}
+#welcome{
+    margin: 10px;
+    float: right;
+}
+#uname{
+    padding: 5px 10px 0 0;
+    color: #58a2e0;
+    float: left;
+}
+#logout{ 
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+/* media quaries - common */
+@media screen and (max-width:525px) {
+   #welcome{margin: 0 10px;}
+   #pgname{display: block;} 
+   body{padding-top: 120px;}
+}
+
+@media screen and (max-width:360px) {
+    h1{font-size: 1.6em;}
+}
+@media screen and (max-width:320px) {
+    header, main{width: 320px;}
+}
